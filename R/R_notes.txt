@@ -1,0 +1,95 @@
+OPERATORS 
+
+Arithmetic operators :
+
+sub
+mul
+div
+remainder/modulus
+exponent
+
+----------------------------------------
+
+order of operations :
+
+Paranthisesis ()
+Exponent ^
+Multi and Div (left to right)
+Add and Sub (left to right)
+
+========================================
+
+Rational operators :
+
+greater than
+less than
+greater than/equal
+less than/equal
+equal
+not equal
+
+========================================
+
+Logical operators :
+
+and - both true then true else false
+or - one true then true else false
+not - opposite
+
+
+
+
+===============================================================================
+
+R has 5 basic or atomic classes of objects
+>character
+>numeric(real numbers)
+>integer
+>complex
+>logical(true/false)
+
+
+================================================================================
+
+
+Basic type of R object is a vector
+Empty vectors can be created with vector() function. It can contain object of same type/class
+** list is a vector which can contain objects of different class **
+
+
+
+================================================================================
+
+FLOW CONTROL IN R
+
+---if statements---
+
+x <- 30L
+typeof(x)
+
+if (is.integer(x)){print("x is an integer")}
+
+if (is.character(x)){
+  print("x is an integer")
+  }
+else{
+  print("x is not character")
+}
+
+
+#---while loop---
+
+count<-2
+while (count<5){
+  print(v)
+  count <- count+1
+}
+
+
+#---for loop---
+
+names <- c("lasya","sai","bhanu","suji")
+names
+for (i in names){
+  print(i)
+}
